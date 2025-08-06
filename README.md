@@ -8,7 +8,7 @@ Se debe considerar el número de interfaces de red y el uso o destinos que tendr
 
 ### IP
 Para listar todas las interfaces, el nombre de cada una, el Gateway correspondiente  
->ip a  
+>ip a\  
 Se pueden agregar o borrar las rutas estáticas necesarias para la comunicación del equipo, esto solo funciona de manera temporal, al reiniciar el equipo se pierden las rutas a menos que se declaren en el archivo correspondiente de rutas
 >ip route add [IP|segmento]/[bits submascara] via [IP del GW] dev [nombre de la interfaz]
 >ip route del [IP|segmento]/[bits submascara] via [IP del GW] dev [nombre de la interfaz]
