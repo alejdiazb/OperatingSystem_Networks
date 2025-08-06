@@ -15,4 +15,14 @@ Se pueden agregar o borrar las rutas estáticas necesarias para la comunicación
 >ip route del [IP|segmento]/[bits submascara] via [IP del GW] dev [nombre de la interfaz]
 
 ### TCPDUMP
-Existen múltiples variantes en la ejecución de éste comando para revisar en las interfaces o puertos de red
+Existen múltiples variantes en la ejecución de éste comando para revisar en las interfaces o puertos de red  
+Inicialmente podemos filtrar tráfico de red sobre una o todas las interfaces
+>tcpdump -i anynet
+>tcpdump -i ens222  
+
+Se puede realizar un filtrado sobre un puerto o varios
+>tcpdump port 8080
+>tcpdump port 162 or port 1062
+
+Realizando una combinación de interfaz y puerto
+>tcpdump -i ens123 and port 162
