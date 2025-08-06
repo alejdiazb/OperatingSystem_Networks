@@ -29,7 +29,7 @@ Filtrado sobre un **puerto**
 >tcpdump port [número de puerto]  
 >tcpdump port 8080
 
-Filtrado sobre un segmento
+Filtrado sobre un **segmento**
 >tcpdump net [segmento]/[bits máscara de subred]  
 >tcpdump net 10.50.50.0/24
 
