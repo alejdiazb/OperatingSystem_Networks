@@ -30,9 +30,11 @@ Filtrado sobre un **puerto**
 >tcpdump port 8080
 
 Filtrado sobre un segmento
->tcpdump net [segmento]/[bits máscara de subred]
+>tcpdump net [segmento]/[bits máscara de subred]  
+>tcpdump net 10.50.50.0/24
 
-Para realizar una combinación en los filtros añadiendo o descartando entre varios puertos, direcciones o segmentos se puede hacer uso de **or, and y not**; en cuanto a las interfaces, solo es posible realizar el filtrado por una a la vez o todas dentro del filtro 
+Para realizar una combinación en los filtros añadiendo o descartando entre varios puertos, direcciones o segmentos se puede hacer uso de **or, and y not**; en cuanto a las interfaces, solo es posible realizar el filtrado por una a la vez o todas dentro del filtro  
+
 Realizando una combinación de interfaz y puerto  
 >tcpdump -i ens123 and port 162
 
