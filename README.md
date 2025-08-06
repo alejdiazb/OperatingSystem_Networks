@@ -21,8 +21,8 @@ Inicialmente podemos filtrar tráfico de red sobre una (ens222 para este ejemplo
 >tcpdump -i ens222  
 
 Se puede realizar un filtrado sobre un puerto o varios
->tcpdump port 8080
->tcpdump port 162 or port 1062
+>tcpdump port 8080  
+>tcpdump port 162 or port 1062  
 
-Realizando una combinación de interfaz y puerto
->tcpdump -i ens123 and port 162
+Realizando una combinación de interfaz y puerto  
+>tcpdump -i ens123 and port 162  
