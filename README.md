@@ -11,7 +11,7 @@ Para listar todas las interfaces, el nombre de cada una, el Gateway correspondie
 ```
 ip a
 ```
-![Output del comando](https://github.com/alejdiazb/OperatingSystem_Networks/tree/main/img/2025-08-06 16_13_13-AIOps-VMware Workstation.png)
+![Output del comando](https://github.com/alejdiazb/OperatingSystem_Networks/blob/53062bcd1d643cad60e98e66372e7924c3960691/img/2025-08-06_16_13_13-AIOps-VMware_Workstation.png)
   
 Se pueden agregar o borrar las rutas estáticas necesarias para la comunicación del equipo, esto solo funciona de manera temporal, al reiniciar el equipo se pierden las rutas a menos que se declaren en el archivo correspondiente de rutas
 ```
