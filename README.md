@@ -16,8 +16,8 @@ Se pueden agregar o borrar las rutas estáticas necesarias para la comunicación
 
 ### TCPDUMP
 Existen múltiples variantes en la ejecución de éste comando para revisar en las interfaces o puertos de red  
-Inicialmente podemos filtrar tráfico de red sobre una o todas las interfaces
->tcpdump -i anynet  
+Inicialmente podemos filtrar tráfico de red sobre una (ens222 para este ejemplo) o todas las interfaces (any)
+>tcpdump -i any  
 >tcpdump -i ens222  
 
 Se puede realizar un filtrado sobre un puerto o varios
